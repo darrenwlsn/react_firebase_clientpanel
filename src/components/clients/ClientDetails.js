@@ -46,7 +46,7 @@ class ClientDetails extends Component {
       balanceForm = (
         <form onSubmit={this.balanceSubmit}>
           <div className="input-group">
-            <input type="text" className="form-control"
+            <input
               type="text"
               className="form-control"
               name="balanceUpdateAmount"
